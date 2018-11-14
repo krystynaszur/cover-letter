@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo|Shadows+Into+Light+Two');
+
+#home {
+    margin-top: 40px;
+    margin-right: 80px;
+    font-family: 'Arimo', sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#home span {
+    font-family: 'Shadows Into Light Two', cursive;
+    font-weight: 900;
+    color: #487ffc;
+}
+  
+#home p {
+    max-width: 700px;
+    font-size: 30px;
+}

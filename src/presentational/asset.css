@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo|Shadows+Into+Light+Two');
+
+.asset {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.asset h2 {
+    font-family: 'Shadows Into Light Two', cursive;
+    font-weight: bold;
+    font-size: 2.6rem;
+    text-transform: uppercase;
+    color: #487ffc;
+    text-align: center;
+}
+
+.asset p {
+    font-family: 'Arimo', sans-serif;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.asset .example {
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.asset .subheader {
+    font-weight: bold;
+}
+
+.asset img {
+    width: 80%;
+}
+
+.asset span {
+    font-family: 'Shadows Into Light Two', cursive;
+    font-weight: 900;
+    color: #487ffc;
+}
+
+.asset .see-example {
+    text-align: center;
+}

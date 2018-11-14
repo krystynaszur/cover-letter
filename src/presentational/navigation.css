@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo|Shadows+Into+Light+Two');
+
+#top-navigation {
+    background-color: #2B3241;
+    border: none;
+    border-radius: 0;
+    position: fixed;
+    height: 50px;
+    width: 100vw;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-default .navbar-brand a:hover,
+.navbar-default .navbar-nav>li>a:hover {
+    color: #FBA53D;
+    text-decoration: none;
+}
+
+.navbar-default .navbar-brand {
+    font-family: 'Shadows Into Light Two', cursive;
+}
+
+.navbar-default .navbar-nav>li {
+    height: 100px;
+    display: flex;
+    align-content: flex-end;
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-family: 'Arimo', sans-serif;
+    color: white;
+}
+
+.navbar-default .navbar-brand a:focus,
+.navbar-default .navbar-nav>li>a:focus{
+    color: #FBA53D;
+}
+
+.left-image img {
+    height: calc(100vh - 50px);
+    position: relative;
+    top: 50px;
+    left: 0;
+    bottom: 0;
+}
+
+.content {
+    height: calc(100vh - 50px);
+    width: 100vw;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+aside {
+    background-color: #454D5F;
+    width: 100px;
+    height: calc(100vh - 50px);
+    position: fixed;
+    right: 0;
+    top: 50px;
+    margin: 0;
+}
+
+aside .nav>li>a {
+    padding: 20px 15px 0 15px;
+    border-bottom: 1px solid black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+aside .nav>li>a>p {
+    font-size: 1.4rem;
+    color: #7D8D9F;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.fa-lightbulb {
+    color: #C1915C;
+}
+
+.fa-question-circle {
+    color:#827F71;
+}
+
+.fa-smile-wink {
+    color:#648D73;
+}
+
+.fa-hand-peace {
+    color: #B5A07E
+}
+
+.fa-laptop {
+    color: #587A78
+}
+
+@media (max-width: 900px), (max-height: 500px) {
+    .left-image img {
+        display:none;
+    }
+}

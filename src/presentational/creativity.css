@@ -1,0 +1,55 @@
+.flipper p {
+    margin: 25px auto;
+    font-weight: bold;
+}
+
+.flip-container {
+    perspective: 1000px;
+    margin: 0 auto;
+}
+
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+	transform: rotateY(180deg);
+}
+
+.flip-container, .front, .back {
+    width: 100%;
+    height: 360px;
+    overflow:hidden;
+    box-sizing: border-box;
+}
+
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+    position: relative;
+}
+
+.front, .back {
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+    left: 0;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.front {
+	z-index: 2;
+	transform: rotateY(0deg);
+}
+
+.back {
+	transform: rotateY(180deg);
+}
+
+.flip-container img {
+    margin: 0 auto;
+}
+
+@media (max-width: 700px) {
+    .flip-container, .front, .back {
+        height: 250px;
+    }
+}
